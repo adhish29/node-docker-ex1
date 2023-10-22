@@ -12,7 +12,7 @@ services:
       - mongo-node-network
 
   app:
-    build: ./Dockerfile
+    build: .
     container_name: node-app
     ports:
       - 3000:3000
